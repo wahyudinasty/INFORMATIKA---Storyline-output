@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000000001" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
     <layout name="npnxnanbsnfns00000000001" font="Open Sans" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
     <layout name="pxabnsnfns00000000001" font="Open Sans" controllayout="pxabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="INFORMATIKA" />
+              <option name="title_text" value="MEDIA INTERAKTIF INFORMATIKA" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -43,6 +43,7 @@
               <option name="height" value="135" />
             </options>
           </option>
+          <option name="logoAltText" />
         </options>
       </optiongroup>
       <optiongroup name="menuoptions">
@@ -1120,61 +1121,157 @@
   </colorschemes>
   <string_tables>
     <string_table name="npnxnanbnsnfns00000000001">
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
+      <string id="three_image_items">items</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_visited">visited</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
+      <string id="three_image_item">item</string>
+      <string id="three_image_interaction_step">step</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="acc_enter_fullscreen">Enter full-screen mode</string>
+      <string id="acc_exit_fullscreen">Exit full-screen mode</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_volume">video volume</string>
       <string id="acc_active">active</string>
-      <string id="acc_closed_captions">Closed captions.</string>
-      <string id="acc_definition">definition</string>
-      <string id="acc_finish">finish</string>
-      <string id="acc_next">next</string>
-      <string id="acc_pause">pause</string>
-      <string id="acc_play">play</string>
-      <string id="acc_previous">previous</string>
-      <string id="acc_replay">replay</string>
-      <string id="acc_resources">resources</string>
-      <string id="acc_search_input">search</string>
-      <string id="acc_skipnavigation">Back to top</string>
-      <string id="acc_submit">submit</string>
-      <string id="acc_submitall">submit all</string>
-      <string id="acc_volume">volume</string>
-      <string id="action">Action</string>
-      <string id="bio">Bio</string>
+      <string id="alt_key">Alt</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to menu</string>
       <string id="close">Close</string>
-      <string id="closed_captions">Captions</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="closed_captions_tip">Toggle captions</string>
       <string id="continue">Continue</string>
       <string id="continueresponsive">Continue</string>
-      <string id="definition">Definition</string>
-      <string id="desktop_start">Start Course</string>
-      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="acc_playback_speed">playback speed</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
       <string id="exit">Exit</string>
       <string id="filter">Filter</string>
       <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
       <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="action">Action</string>
       <string id="keyboardshortcuts">Keyboard Shortcuts</string>
-      <string id="mobile_start">Start Course</string>
-      <string id="more_info">More info</string>
-      <string id="next">NEXT</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next_shortcut">Next slide</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="previous_shortcut">Previous slide</string>
+      <string id="replay_shortcut">Replay slide</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit slide</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="fullscreen_shortcut">Toggle full-screen mode</string>
+      <string id="togglezoom">Switch zoom modes</string>
       <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="mute_tip">Mute</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="next_slide_tip">Next slide</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="pause_tip">Pause</string>
+      <string id="acc_play">play</string>
+      <string id="play_tip">Play</string>
+      <string id="send_an_email">Send an email</string>
       <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="previous_slide_tip">Previous slide</string>
       <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay</string>
+      <string id="acc_replay">replay</string>
       <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
       <string id="restart">Restart</string>
       <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
       <string id="search">Search...</string>
       <string id="search_in">Search in:</string>
       <string id="search_results">Search Results</string>
-      <string id="search_toggle">Search</string>
-      <string id="send_an_email">Send an email</string>
-      <string id="shortcut">Shortcut</string>
-      <string id="shortcuthelp">List keyboard shortcuts</string>
-      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Back to top</string>
       <string id="slide_text_chk">Slide Text</string>
-      <string id="submit">SUBMIT</string>
+      <string id="spacebar_key">Space</string>
+      <string id="streaming_video_local_playback_learn_more">Learn More</string>
+      <string id="streaming_video_local_playback_republish">To watch this video, use the preview feature in Storyline 360, upload your published output to a server, publish to Review 360, or switch to static video quality.</string>
+      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
       <string id="submitall">SUBMIT ALL</string>
-      <string id="terms">Terms</string>
-      <string id="togglezoom">Switch zoom modes</string>
-      <string id="transcript">Notes</string>
-      <string id="transcript_chk">Notes</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="acc_volume">volume</string>
     </string_table>
   </string_tables>
   <fonts>
@@ -1194,44 +1291,41 @@
             <slidelink slideid="_player.6JZurdeXrd4.6SDEvY2F4UQ" displaytext="Cover" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.5kfXdLh5F55" displaytext="Menu pembelajaran" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6c5eO28NTT7" displaytext="Informasi" expand="false" type="slide" />
+            <slidelink slideid="_player.6JZurdeXrd4.6n57rwtMnMJ" displaytext="Informasi lanjutan" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6CpC5DweeDk" displaytext="Pengembang" expand="false" type="slide" />
-            <slidelink slideid="_player.6JZurdeXrd4.5Vcks1VbBfj" displaytext="Menu Materi" expand="false" type="slide" />
+            <slidelink slideid="_player.6JZurdeXrd4.5Vcks1VbBfj" displaytext="Tujuan pembelajaran" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.5y5NOokYYFD" displaytext="Elemen I" expand="false" type="slide" />
+            <slidelink slideid="_player.6JZurdeXrd4.6eNyA99EFsa" displaytext="Pengantar elemen 1" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.5z4bRH7RheG" displaytext="Lanjutan Elemen I 1" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.5d26EC4EXjo" displaytext="Lanjutan Elemen I 2" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6oHVOWaR10H" displaytext="Lanjutan Elemen I 3" expand="false" type="slide" />
-            <slidelink slideid="_player.6JZurdeXrd4.5tMkBFQirI3" displaytext="Evaluasi elemen 1" expand="false" type="slide" />
-            <slidelink slideid="_player.6JZurdeXrd4.6etr9mF1X9K" displaytext="Evaluasi Keseluruhan " expand="false" type="slide" />
-            <slidelink slideid="_player.6JZurdeXrd4.6PbULLtS6fa" displaytext="Elemen II" expand="false" type="slide" />
-            <slidelink slideid="_player.6JZurdeXrd4.6KnLkPHVfMk" displaytext="Lanjutan Elemen II 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6JZurdeXrd4.64eYKkY4U2v" displaytext="Video BK" expand="false" type="slide" />
+            <slidelink slideid="_player.6JZurdeXrd4.6KnLkPHVfMk" displaytext="Elemen 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6JZurdeXrd4.6KxqrzDmDbG" displaytext="Pengantar elemen 2" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6Mp5KX1GIJu" displaytext="Lanjutan Elemen II 2" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.5r0Ch4N9r4y" displaytext="Lanjutan Elemen II 5" expand="false" type="slide" />
-            <slidelink slideid="_player.6JZurdeXrd4.6Fj9Qe9OH3R" displaytext="Evaluasi elemen 2" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6fLkLTEyKaD" displaytext="Lanjutan Elemen II 3" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6nTEraLKZah" displaytext="Lanjutan Elemen II 4" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.63zX47cBmsY" displaytext="Lanjutan Elemen II 6" expand="false" type="slide" />
-            <slidelink slideid="_player.6JZurdeXrd4.6c10HSMgm1t" displaytext="Elemen III" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6LmI7D5TgHa" displaytext="Elemen III 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6JZurdeXrd4.5wFFZWObHD1" displaytext="Pengantar elemen 3" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.60TVm8VOL1N" displaytext="Elemen III 2" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.5tDWArKaYNB" displaytext="Elemen III 3" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.5xiQ8tjd3gV" displaytext="Elemen III 4" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.5lRupOw1Nj7" displaytext="Elemen III 5" expand="false" type="slide" />
-            <slidelink slideid="_player.6JZurdeXrd4.5ps3gsaL6VC" displaytext="Evaluasi elemen 3" expand="false" type="slide" />
-            <slidelink slideid="_player.6JZurdeXrd4.6cAOToJWOk4" displaytext="Elemen IV" expand="false" type="slide" />
+            <slidelink slideid="_player.6JZurdeXrd4.5z50nSe1Vfl" displaytext="ideo SK" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6P1FYIiSvmq" displaytext="Elemen IV 1" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6fOx3AbcqmA" displaytext="Elemen IV 2" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.5X10tzxYzrj" displaytext="Elemen IV 3" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6JGWL6dJB3M" displaytext="Elemen IV 4" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.5l3S5nqLhYS" displaytext="Elemen IV 5" expand="false" type="slide" />
-            <slidelink slideid="_player.6JZurdeXrd4.6Lgyot8vmVb" displaytext="Evaluasi elemen 4" expand="false" type="slide" />
-            <slidelink slideid="_player.6JZurdeXrd4.5ya5TLkQyIU" displaytext="Elemen V" expand="false" type="slide" />
-            <slidelink slideid="_player.6JZurdeXrd4.5w3v3zgDfj4" displaytext="Elemen V 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6JZurdeXrd4.6dlDELw7Zql" displaytext="Video KJKI" expand="false" type="slide" />
+            <slidelink slideid="_player.6JZurdeXrd4.5w3v3zgDfj4" displaytext="Elemen V" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.5mpc9eqcQIn" displaytext="Elemen V 2" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6CzhskwneEa" displaytext="Elemen V 3" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6r7nxNPQpbD" displaytext="Elemen V 4" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.5kxKOWKiHAa" displaytext="Elemen V 5" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.5ZPUoZnczXL" displaytext="Elemen VI 6" expand="false" type="slide" />
-            <slidelink slideid="_player.6JZurdeXrd4.5zjaSgGTeo0" displaytext="Evaluasi elemen 6" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6EiIq7Obmjf" displaytext="1. Karena perkembangan komputer sangat cepat dan banyak memberikan dampak besar  kehidupan manusia maka pada saat ini termasuk kenerasi keberapa…" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6JYdxHfqkrA" displaytext="2. Pada tahun berapa personal komputer (PC) muncul ?" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6Ev7W7MtuAJ" displaytext="3. Dibawah ini adalah ciri-ciri komputer pada era modern, kecuali…." expand="false" type="slide" />
@@ -1242,8 +1336,8 @@
             <slidelink slideid="_player.6JZurdeXrd4.6ddQ8FmrVJs" displaytext="3. Kepanjanagn dari WAN dalam jaringan internet adalah….." expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.5wK32u5KJqm" displaytext="4. Berikut hal-hal yang dapat dilakukan dengan menggunakan internet kecuali…." expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6WplOJ1mVTl" displaytext="5. Perangkat yang terhubung antara klien dengan server adalah menggunakan….." expand="false" type="slide" />
-            <slidelink slideid="_player.6JZurdeXrd4.6Ado5VeWkya" displaytext="1. Monitor dan printer merupakan perangkat…." expand="false" type="slide" />
-            <slidelink slideid="_player.6JZurdeXrd4.6rTeMxz8TZA" displaytext="2. Perangkat masukan atau input pengolah data yang terhubung dengan komputer yangberfungsi memasukkan huruf, angka, dan simbol pada komputer adalah…" expand="false" type="slide" />
+            <slidelink slideid="_player.6JZurdeXrd4.6Ado5VeWkya" displaytext="Evaluasi elemen 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6JZurdeXrd4.6rTeMxz8TZA" displaytext="2. Perangkat masukan atau input pengolah data yang terhubung dengan komputer yang berfungsi memasukkan huruf, angka, dan simbol pada komputer adalah…" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.5bfqyjGvLGh" displaytext="3. Alat pemindai salah satu perangkat pada komputer yang berfungsi menduplikat objek layaknya seperti mesin fotocopy ke dalam bentuk digital adalah…" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6LoN8tBZXNb" displaytext="4. Alat penyimpanan data memori kilat tipe NAND yang memiliki alat penghubung USB yang terintegrasi adalah…." expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.5VOdcTIeloJ" displaytext="5. Printer yang dapat menghasilkan output tulisan pada kertas menggunakan pita dan jarum besi dengan sistem kerja meneyerupai mesin tik adalah…" expand="false" type="slide" />
@@ -1252,7 +1346,7 @@
             <slidelink slideid="_player.6JZurdeXrd4.5e0f8UqvbKc" displaytext="3. Gabungan antara kolom dan baris disebut" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6rmR60kF1vU" displaytext="4.  Aplikasi yang dapat digunakan untuk membuat iklan berjalan adalah…" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.5sSidzbKGnV" displaytext="5. Untuk menjalankan slide presentasi pada Microsoft Power Point menggunakan…." expand="false" type="slide" />
-            <slidelink slideid="_player.6JZurdeXrd4.5oi3wZBFyPb" displaytext="1. Metode untuk menuntaskan persoalan menggunakan penerapan teknik ilmu komputer/informatika disebut…." expand="false" type="slide" />
+            <slidelink slideid="_player.6JZurdeXrd4.5oi3wZBFyPb" displaytext="Evaluasi elemen 1" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6dDF4AMIMB6" displaytext="2. Dalam upaya penyelesaian masalah , kegiatan membuat sketsa diagram termasuk dalam tahapan…." expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6mZsD6JuQnb" displaytext="3. Berikut ini yang berhubungan dengan abstraksi adalah…." expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6EzrLyXhoEu" displaytext="4. Mengapa kita perlu berfikir komputasional….." expand="false" type="slide" />
@@ -1267,7 +1361,7 @@
             <slidelink slideid="_player.6JZurdeXrd4.5lAdlNK1KxO" displaytext="8. Komponen (Elemen) utama sistem komputer yang secara fisik dapat dilihat, dipegang, dan dipindahkan disebut…" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.61KAb9Z8hPr" displaytext="9. Memori komputer yang berfungsi untuk menyimpan sementara perintah dan data pada saat sebuah program dijalankan disebut…." expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.5m0vUQski5D" displaytext="10. Salah satu perangkat masukan yang berfungsi memasukkan huruf, angka, dan karakter khusus adalah " expand="false" type="slide" />
-            <slidelink slideid="_player.6JZurdeXrd4.5vgpRkQcA7V" displaytext="11. Jaringan yang mencangkup wilayah kecil untuk model jaringan nya , seperti jaringan komputer sekolah, kapus, lab, gedung kantor, dalam rumah atau yang lebih kecil disebut… " expand="false" type="slide" />
+            <slidelink slideid="_player.6JZurdeXrd4.5vgpRkQcA7V" displaytext="11. Jaringan yang mencangkup wilayah kecil untuk model jaringan nya , seperti jaringan komputer sekolah, kapus, lab, gedung kantor, dalam rumah atau yang lebih kecil disebut.." expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6gJwbPZieKX" displaytext="12. Kabel yang tersusun atas sepasang konduktor yang terbungkus plastik dan masing-masing dilapisi plastik sebagai isolator yang diberi warna merupakan kabel…" expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.5VuJ5hNhizt" displaytext="13. Layout dalam jaringan dikenal juga sebaai….." expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6IjWZODHPly" displaytext="14. Pihak yang memberikan atau mengirimkan layanan adalah…." expand="false" type="slide" />
@@ -1282,8 +1376,6 @@
             <slidelink slideid="_player.6JZurdeXrd4.6MrxB67sP45" displaytext="23. Berikut ini merupakan mesin pencarian paling popular dinegeri cina adalah…." expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.61PmwQMktRr" displaytext="24. Dibawah ini yang termasuk kedalam komputer generasi pertama, kecuali….." expand="false" type="slide" />
             <slidelink slideid="_player.6JZurdeXrd4.6odw2Y8uHkU" displaytext="25. Profesi dibawah ini yang bukan termasuk profesi  baru dengan memanfaatkan media sosial adalah……" expand="false" type="slide" />
-            <slidelink slideid="_player.6JZurdeXrd4.685hDijdzK4" displaytext="Video SK" expand="false" type="slide" />
-            <slidelink slideid="_player.6JZurdeXrd4.6gfjq4DmQ0D" displaytext="Video BK" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
